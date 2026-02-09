@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+Recipe App – CookSmart
+About
+    A dynamic recipe application built using React JS that allows users to browse, search, and filter recipes using data from a public meals API. The app provides an intuitive UI for discovering recipes, viewing full details, and saving favorites.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Features
+1) Recipe Listings
+    -> Fetches recipes from TheMealDB API
+    -> Displays recipe image, name, and category
+    -> Clickable recipe cards to view detailed information
+2) Search
+    -> Search recipes by name or keyword
+    -> Real-time search as the user types
+    -> Works together with filters for refined results
+3) Filters
+    -> Filter recipes by Category or Ingredient
+    -> Filters are shown in a dropdown UI
+    -> Filter options are dynamically loaded from the API
+    -> Search and filters work together
+    -> Clear filter resets filters while keeping search intact
 
-## Available Scripts
+4) Recipe Details
+    -> Displays full recipe information: 
+        i)  Category
+        ii) Ingredients with measurements
+        iii)Instructions
+        iv) YouTube video link (if available)
+    -> Easy navigation back to the main list
 
-In the project directory, you can run:
+5) Favorites (Optional Feature)
+        i)  Mark/unmark recipes as favorites
+        ii) Favorites are saved in localStorage
+        iii)Favorites persist across page reloads
 
-### `npm start`
+Tech Stack
+  i)  React JS
+  ii) React Router
+  iii)Axios
+  iv) Tailwind CSS (for styling)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+User Capabilities
+  i)  Browse and search recipes
+  ii) Filter recipes by category and ingredients
+  iii)View detailed recipe information
+  iv) Save favorite recipes for later
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+API Used
+https://www.themealdb.com/api.php
