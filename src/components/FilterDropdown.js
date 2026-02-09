@@ -70,7 +70,7 @@ function FilterDropdown({ filters, setFilters, onApply, onClear }) {
             {open && (
                 <div
                     className="
-                        absolute right-0 mt-3 w-80
+                        absolute mt-3 w-70
                         bg-white rounded-xl shadow-xl border
                         p-4 max-h-[420px] overflow-y-auto
                     "
